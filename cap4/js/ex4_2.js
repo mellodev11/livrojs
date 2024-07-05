@@ -20,3 +20,7 @@ resp.style.color= "red"
 frm.addEventListener("reset", ()=>{
     resp.innerText=""
 })
+
+
+//PODERIA SER ASSIM trocar o let 
+// const peso = masculino ? 22*Math.pow(altura, 2) : 21 * Math.pow(altura, 2)
